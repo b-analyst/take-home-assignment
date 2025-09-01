@@ -290,10 +290,21 @@ outs
          
 ---
 ## Charts
+**Duplicate Questions With Multiple Answers**
 ![Duplicate Questions With Multiple Answers](assets/n-samples-duplicate-questions-multi-answers.png)
+
+**Question Type Distribution**
 ![Question Type Distribution](assets/question-type-distribution.png)
+
+**Train Loss Curve**
 ![Train Loss Curve](assets/train-loss-curve.png)
+
+**Learning Rate Cosine
 ![Learning Rate Cosine](assets/cosine.png)
+
+---
+## WandB Experiment Link
+https://wandb.ai/banalyst/medquad-sft
 
  
 
