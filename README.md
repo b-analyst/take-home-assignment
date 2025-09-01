@@ -306,5 +306,8 @@ outs
 ## WandB Experiment Link
 https://wandb.ai/banalyst/medquad-sft
 
+---
+## Statement
+I confirm that I did not use AI assistance for any part of my solutions.
  
 
