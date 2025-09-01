@@ -23,7 +23,7 @@
 - LLM-assisted **deduplication & quality filtering**.
 - **Stratified** validation by MedQuAD `question_type`.
 - **QLoRA** training on 4-bit **Qwen3-4B-Instruct-2507** (Unsloth) with FlashAttention 2.
-- **SQuAD v1 EM/F1** metrics + fur th er improvement discussion
+- **SQuAD v1 EM/F1** metrics + further improvement discussion
 
 ---
 
