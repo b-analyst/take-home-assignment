@@ -284,7 +284,7 @@ outs
       2) Retrieval based augmentation to inject knkowledge at inference
    
   - **RLHF with experts:** This method may not be scalable, but if the model was reinforced on factual correctness from medical practitioners labeling the outputs, the model could obtain more medical knowledge.
-  - **Evaluation:** Token-level f1-score doesn't tell the whole story. Because MedQuAD is an open ended QA task, variability in response styles is expected. This may result in exact token matches but the information conveyed could still be correct. Therefore, more semantic focused evaluation mechanism is required to judge performance of the model. I propose 2 more evaluation metrics:
+  - **Evaluation:** Token-level f1-score doesn't tell the whole story. Because MedQuAD is an open ended QA task, variability in response styles is expected. This may result in not exact token matches but the information conveyed could still be correct. Therefore, more semantic focused evaluation mechanism is required to judge performance of the model. I propose 2 more evaluation metrics:
       1) Use LLM as a judge to verify if the generated answers and provided answers are in agreement - score on a scale in terms of correctness.
       2) Use mean cosine similarity between generated vs provided answers to assess alignment.
          
