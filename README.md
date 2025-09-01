@@ -31,7 +31,7 @@
 
 1) **Detect duplicates with conflicting answers**
    - The provided dataset had duplicate questions with **varying answer quality**.
-   - I **grouped** answers by identical question and used a **strong LLM judge** (8-bit Qwen3-4B-Instruct-2507 from Unsloth) to select the best answer among candidates --> resulted in 889 unique question/answer pairs.
+   - I **grouped** answers by identical question and used a **strong LLM judge** (8-bit Qwen3-4B-Instruct-2507 from Unsloth) to select the best answer among candidates --> resulted in 889 duplicate questions with varying answer pairs.
    - If **none** were acceptable, the judge returned a special index **`"0"`**, and the item was dropped.
    - Final deduped subset resulted in 857 samples after dropping rejected answers.
 
